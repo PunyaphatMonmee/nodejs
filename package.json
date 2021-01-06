@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "if [[ SNODE_ENV == 'production' ]];node ./bin/www; else nodemon ./bin/www; fi",
+    "start": "if [[ SNODE_ENV == 'production' ]]; than node ./bin/www; else nodemon ./bin/www; fi",
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
